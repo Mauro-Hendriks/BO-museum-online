@@ -48,24 +48,19 @@ body{
 
 .h1{
     background: #DF8544;
-    height: 90px;
+    height: 65px;
 }
 
-#bua{
-    background: #0B72BD;
-    width: 130px;
-    height: 30px;
-    font-family: 'Noto Sans', sans-serif;
-    margin: 10px;
-    color: #E0E0E0;
-    margin-left: 10px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+#button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 380 px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#bun{
+button{
     background: #98D0F9;
     width: 130px;
     height: 30px;
@@ -75,21 +70,22 @@ body{
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
 }
 
-#tik{
-    background: #98D0F9;
-    width: 300px;
-    height: 90px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
+#tick{
+    width: 140px;
+    height: 40px;
     font-size: large;
-    color: #E0E0E0;
-    margin-left: 482px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px;
+
 }
+
+#home{
+ background: #0B72BD;
+}
+
+
 
