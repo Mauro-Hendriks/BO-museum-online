@@ -60,32 +60,40 @@ body{
     margin-right: auto;
 }
 
+
 button{
     background: #98D0F9;
     width: 130px;
     height: 30px;
     font-family: 'Noto Sans', sans-serif;
     margin: 10px;
-    color: #E0E0E0;
+    color: black;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block; 
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #d6ecf3;
+    color: black;
+  }
 
 #tick{
     width: 140px;
     height: 40px;
     font-size: large;
     font-weight: 700;
-    text-align: left;
     padding: 5px;
-
 }
 
 #home{
- background: #0B72BD;
-}
+    background: #0B72BD;
+    }
 
-
-
+#home:hover {
+    background-color: rgb(40, 40, 231);
+    color: black;
+ }
