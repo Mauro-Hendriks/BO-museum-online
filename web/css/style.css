@@ -72,7 +72,7 @@ body{
 }
 
 
-button{
+li > button{
     background: #98D0F9;
     width: 130px;
     height: 30px;
@@ -124,7 +124,7 @@ button:hover {
     margin-top: 80px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-size: larger;
@@ -132,4 +132,72 @@ button:hover {
     color: white;
     text-decoration: none;
     display: inline-block;
+}
+
+.tentoon{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    text-align: left;
+    display: flex;
+    gap: 300px;
+}
+
+#tentoonH{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+
+
+#at1{
+    margin-bottom: 30px;
+}
+
+#tentp{
+    width: 500px;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#tent{
+    background: #98D0F9;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-top: 0;
+    color: black;
+    border: none;
+    text-decoration: none;
+    display: inline-block; 
+    display: flex;
+    align-items: center;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.arrow{
+    margin-left: 130px;
+   color: black;
+}
+
+.arrow1{
+    margin-left: 230px;
+}
+
+.arrow2{
+    margin-left: 220px;
+}
+
+.arrow3{
+    margin-left: 170px;
 }
