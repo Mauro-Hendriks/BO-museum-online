@@ -27,58 +27,108 @@
         <header class="h1">
             <nav>
                 <ul class="button">
-                    <li><button id="home">home</button></li>
-                    <li><button>Tentoonstellingen</button></li>
-                    <li><button>Geschiedenis</button></li>
-                    <li><button>openingstijden</button></li>
-                    <li><button>vr tour</button></li>
-                    <li><button>Reviews</button></li>
-                    <li><button id="tick" onclick="document.location='https://tickets.hetscheepvaartmuseum.nl/nl/tickets/'">tickets</button></li>
+                    <li><a>home</a></li>
+                    <li><a href="#tentoonstellingen">Tentoonstellingen</a></li>
+                    <li><a href="#geschiedenis">Geschiedenis</a></li>
+                    <li><a href="#">openingstijden</a></li>
+                    <li><a href="#">vr tour</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#" id="tick"
+                            onclick="document.location='https://tickets.hetscheepvaartmuseum.nl/nl/tickets/'">tickets</a>
+                    </li>
                 </ul>
             </nav>
         </header>
     </div>
-    <img id="slide"
-        src="https://www.anwb.nl/binaries/content/gallery/anwb/portal/landvananwb/museum/maritiem/het-scheepvaartmuseum/land-van-anwb-met-korting-naar-het-scheepvaartmuseum-1.jpg/land-van-anwb-met-korting-naar-het-scheepvaartmuseum-1.jpg/anwb:w760" alt="">
+    <figure id="fotoslide">
 
-    <p id="intro">
+    </figure>
+    <p class="P">
         De collectie van Het Scheepvaartmuseum is één van de grootste en meest vooraanstaande maritieme
         collecties ter wereld, waaronder schilderijen, scheepsmodellen, navigatie-instrumenten en wereldkaarten. Ontdek
         500 jaar Nederlandse maritieme geschiedenis en ervaar hoe sterk deze verbonden is met de samenleving van vandaag
         en van de toekomst.
     </p>
 
-    <div> *\tentoonstellingen
-        <h2 id="tentoonH">Tentoonstellingen</h2>
+    <section id="tentoonstellingen">
+        <h2 class="H2">Tentoonstellingen</h2>
         <div class="tentoon">
             <div>
-                <div id="at1">
-                    <img id="tentp" src="css/img/koningssloep.jpg" alt="de koningssloep">
-                    <button id="tent" onclick="document.location='https://www.hetscheepvaartmuseum.nl/koningssloep'">De koningssloep <p class="arrow1">&#8680;</p></button>
+                <div class="at1">
+                    <img class="tentp" src="img/koningssloep.jpg" alt="de koningssloep">
+                    <button class="tent"
+                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/koningssloep'">De koningssloep
+                        <p class="arrow1">&#8680;</p>
+                    </button>
                 </div>
 
-                <div id="at1">
-                    <img id="tentp" src="css/img/de-navigatie-instrumenten.jpg" alt="de koningssloep">
-                    <button id="tent"
-                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/navigatie-instrumenten'">Navigatie instrumenten <p class="arrow">&#8680;</p></button>
+                <div class="at1">
+                    <img class="tentp" src="img/de-navigatie-instrumenten.jpg" alt="de koningssloep">
+                    <button class="tent"
+                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/navigatie-instrumenten'">Navigatie
+                        instrumenten <p class="arrow">&#8680;</p></button>
                 </div>
             </div>
 
             <div>
-                <div id="at1">
-                    <img id="tentp" src="css/img/de-jachtmodellen.jpg" alt="De jachtmodellen">
-                    <button id="tent"
-                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/jachtmodellen'">De jachtmodellen <p class="arrow2">&#8680;</p></button>
+                <div class="at1">
+                    <img class="tentp" src="img/de-jachtmodellen.jpg" alt="De jachtmodellen">
+                    <button class="tent"
+                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/jachtmodellen'">De
+                        jachtmodellen <p class="arrow2">&#8680;</p></button>
                 </div>
 
-                <div id="at1">
-                    <img id="tentp" src="css/img/voc-schip-amsterdam_0.jpg" alt="voc schip amsterdam">
-                    <button id="tent"
-                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/voc-schip-amsterdam'">voc schip amsterdam <p class="arrow3">&#8680;</p></button>
+                <div class="at1">
+                    <img class="tentp" src="img/voc-schip-amsterdam_0.jpg" alt="voc schip amsterdam">
+                    <button class="tent"
+                        onclick="document.location='https://www.hetscheepvaartmuseum.nl/doen/voc-schip-amsterdam'">voc
+                        schip amsterdam <p class="arrow3">&#8680;</p></button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="geschiedenis">
+        <div>
+            <h2 class="H2">De geschiedenis</h2>
+            <p class="GS">
+                De Vereeniging Nederlandsch Historisch Scheepvaart Museum is in 1916 opgericht en eigenares van een van
+                de meest vooraanstaande maritieme collecties ter wereld,
+                een rechtstreeks gevolg van het succes van de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied in
+                1913.
+                De ongeveer 300.000 objecten zijn afkomstig van rederijen,
+                verzamelaars en liefhebbers uit de maritieme en marinewereld.
+                Oorspronkelijk was het museum gevestigd in een gebouw op de hoek Cornelis Schuytstraat / De
+                Lairessestraat in Amsterdam-Zuid,
+                tot 2018 veilinghuis Christie's.
+                De oorspronkelijke functie is nog te zien aan de golfmotieven in de bakstenen gevel.
+            </p>
+            <p class="GS">
+                Sinds 1973 is het museum gevestigd in 's Lands Zeemagazijn aan het Oosterdok bij het IJ in Amsterdam.
+                Kroonprinses Beatrix der Nederlanden heropende het museum in april van dat jaar op de nieuwe locatie.
+            </p>
+            <p class="GS">
+                Tijdens een grote renovatie tussen 2007 en 2011 was het museum voor het publiek gesloten.
+                In die periode is onder andere de binnenplaats overdekt met een glazen overkapping.
+                Het ontwerp van het renovatieplan is van de architect Liesbeth van der Pol. Het depot van het museum uit
+                2001,
+                het Behouden Huis, op het naastgelegen Marine Etablissement Amsterdam is eveneens door haar ontworpen.
+                Na de ingrijpende verbouwing is het museum sinds oktober 2011 weer open.
+                Ook de replica van de Oost-Indiëvaarder Amsterdam ligt sindsdien weer aan de steiger bij Het
+                Scheepvaartmuseum.
+            </p>
+        </div>
+        <div>
+            <figure>
+                <img src="img/Image_1.jpg" alt="">
+                <figcaption>koningin Beatrix die het museum opend</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Image_2.jpg" alt="">
+                <figcaption>Hoe het museum er eerste uit zag</figcaption>
+            </figure>
+        </div>
+    </section>
 </body>
 
 </html>
