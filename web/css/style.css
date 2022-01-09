@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #F9C198;
     font-family: 'Noto Sans', sans-serif;
 }
 
-#Header{
-    position: static;
-    height: 150px;
-}
+
 
 .button{
     list-style-type: none;
@@ -28,7 +29,7 @@ body{
       
   }
   
-  a:hover {
+  li > a:hover {
       background-color: #d6ecf3;
       color: black;
     }
@@ -92,7 +93,7 @@ nav > ul > li > a{
     color: #E0E0E0;
 }
 
-#NL{
+#AC{
     width: 50px;
     height: 20px;
     font-family: 'Noto Sans', sans-serif;
@@ -105,7 +106,7 @@ nav > ul > li > a{
     display: inline-block;
 }
 
-#EN{
+#NC{
     width: 50px;
     height: 20px;
     font-family: 'Noto Sans', sans-serif;
@@ -175,7 +176,14 @@ nav > ul > li > a{
     font-size: 80px;
 }
 
-
+.H3{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 
 .at1{
     margin-bottom: 30px;
@@ -208,7 +216,7 @@ nav > ul > li > a{
 }
 
 .arrow{
-    margin-left: 130px;
+    margin-left: 120px;
    color: black;
 }
 
@@ -217,7 +225,7 @@ nav > ul > li > a{
 }
 
 .arrow2{
-    margin-left: 220px;
+    margin-left: 190px;
 }
 
 .arrow3{
@@ -244,10 +252,109 @@ nav > ul > li > a{
     
 }
 
-#geschiedenis > div >figure{
+#geschiedenis > div > figure{
     margin-top: 115px;
     margin-right: 140px;
 
+}
+
+#geschiedenis > div > figure > figcaption{
+    background: #98D0F9;
+}
+
+#tijden{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#tijden > div{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#tijden > div > div > figure{
+    background: #98D0F9 ;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    width: 290px;
+}
+
+#tijden > div >figure{
+    background: #98D0F9 ;
+    color: white;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    height: 110px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+#vr > img{
+    width: 50vw;
+    max-height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#revieuws > img{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#contact > figure{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    background:#98D0F9;
+    width: 1000px;
+}
+
+
+
+#contact > figure >p{
+    color: white;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    
+}
+
+.top{
+    width: 80px;
+    height: 80px;
+    background: #98D0F9;
+    border: none;
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    bottom: 120px;
+    right: 120px;
+    text-decoration:none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top:hover {
+ background: #d6ecf3;
+}
+
+footer{
+    background: #DF8544;
+    height: 50px;
 }
 
 @keyframes fotoslide {
