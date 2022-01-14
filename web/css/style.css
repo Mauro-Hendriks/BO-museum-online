@@ -129,6 +129,7 @@ nav > ul > li > a{
     width: 99vw;
     height: 82vh;
     background-size: cover;
+    background-position: center;
     animation-name: fotoslide;
     animation-duration: 20s;
     animation-iteration-count: infinite ;
@@ -210,7 +211,6 @@ nav > ul > li > a{
     display: inline-block; 
     display: flex;
     align-items: center;
-    
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -301,7 +301,6 @@ nav > ul > li > a{
 
 #vr > img{
     width: 50vw;
-    max-height: auto;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -309,6 +308,52 @@ nav > ul > li > a{
 #revieuws > img{
     margin-left: 150px;
     margin-right: 150px;
+}
+
+#feld{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    background: #98D0F9;
+    width: 700px;
+    
+}
+
+.H23{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#REA{
+    margin-left: 1200px;
+    margin-top: -300px;
+}
+
+.checked {
+    color: orange;
+}
+
+.ster{
+    font-size: 50px;
+    color: yellow;
+}
+
+#flex2{
+    display: flex;
+    flex-direction: row;
+}
+
+#input{
+    width: 500px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+#sub{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 #contact > figure{
@@ -363,59 +408,74 @@ footer{
         background-image: url("../img/ActiviteitenMuseumnacht2020Noordelijk-Scheepvaart_1200xAUTO_fit_center-center_95_noneMuseumnacht_2019_Knelis-zolder.jpg");
     }
 
-    12.5%{
+    10%{
         opacity: 1;
         background-image: url("../img/ActiviteitenMuseumnacht2020Noordelijk-Scheepvaart_1200xAUTO_fit_center-center_95_noneMuseumnacht_2019_Knelis-zolder.jpg");
     }
 
-    24%{
+    19%{
         opacity: 0;
         background-image: url("../img/ActiviteitenMuseumnacht2020Noordelijk-Scheepvaart_1200xAUTO_fit_center-center_95_noneMuseumnacht_2019_Knelis-zolder.jpg");
     }
 
-    25%{
+    20%{
         opacity: 0;
         background-image: url("../img/Amsterdam_-_Nederlands_Scheepvaartmuseum_18.JPG");
     }
 
-    37.5%{
+    30%{
         opacity: 1;
         background-image: url("../img/Amsterdam_-_Nederlands_Scheepvaartmuseum_18.JPG");
     }
 
-    49%{
+    39%{
         opacity: 0;
         background-image: url("../img/Amsterdam_-_Nederlands_Scheepvaartmuseum_18.JPG");
+    }
+
+    40%{
+        opacity: 0;
+        background-image: url("../img/event-borrel-in-het-open-plein-van-het-scheepvaartmuseum--1200x800.jpg");
     }
 
     50%{
-        opacity: 0;
-        background-image: url("../img/event-borrel-in-het-open-plein-van-het-scheepvaartmuseum--1200x800.jpg");
-    }
-
-    62.5%{
         opacity: 1;
         background-image: url("../img/event-borrel-in-het-open-plein-van-het-scheepvaartmuseum--1200x800.jpg");
     }
 
-    74%{
+    59%{
         opacity: 0;
         background-image: url("../img/event-borrel-in-het-open-plein-van-het-scheepvaartmuseum--1200x800.jpg");
     }
 
-    75%{
+    60%{
         opacity: 0;
         background-image: url("../img/openingstijden_2_actieblok_rasterized.jpg");
     }
 
-    87.5%{
+    70%{
         opacity: 1;
         background-image: url("../img/openingstijden_2_actieblok_rasterized.jpg");
+    }
+
+    79%{
+        opacity: 0;
+        background-image: url("../img/openingstijden_2_actieblok_rasterized.jpg");
+    }
+
+    80%{
+        opacity: 0;
+        background-image: url("../img/Scheepvaartmuseum-walvis.jpg");
+    }
+
+    90%{
+        opacity: 1;
+        background-image: url("../img/Scheepvaartmuseum-walvis.jpg");
     }
 
     99%{
         opacity: 0;
-        background-image: url("../img/openingstijden_2_actieblok_rasterized.jpg");
+        background-image: url("../img/Scheepvaartmuseum-walvis.jpg");
     }
 
     100%{
@@ -423,4 +483,16 @@ footer{
         background-image: url("../img/ActiviteitenMuseumnacht2020Noordelijk-Scheepvaart_1200xAUTO_fit_center-center_95_noneMuseumnacht_2019_Knelis-zolder.jpg");
     }
 
+}
+
+@media screen and (max-width:1000px) {
+    .top{
+        bottom: 120px;
+        right: 400px;
+    }
+    .tentoon{
+        gap: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
 }
