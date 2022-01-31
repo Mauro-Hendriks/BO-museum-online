@@ -34,7 +34,8 @@
                     <li><a href="#vr">vr tour</a></li>
                     <li><a href="#revieuws">Reviews</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" id="tick" onclick="document.location='https://tickets.hetscheepvaartmuseum.nl/nl/tickets/'">Tickets</a>
+                    <li><a href="#" id="tick"
+                            onclick="document.location='https://tickets.hetscheepvaartmuseum.nl/nl/tickets/'">Tickets</a>
                     </li>
                 </ul>
             </nav>
@@ -47,11 +48,11 @@
 
     <p class="P">
         De collectie van Het Scheepvaartmuseum is één van de grootste en meest vooraanstaande maritieme
-        collecties ter wereld, waaronder 
+        collecties ter wereld, waaronder
     </p>
     <p class="P2">
-        schilderijen, scheepsmodellen, navigatie-instrumenten en wereldkaarten. 
-        Ontdek 500 jaar Nederlandse maritieme geschiedenis en ervaar 
+        schilderijen, scheepsmodellen, navigatie-instrumenten en wereldkaarten.
+        Ontdek 500 jaar Nederlandse maritieme geschiedenis en ervaar
     </p>
     <p class="P2">
         hoe sterk deze verbonden is met de samenleving van daag en van de toekomst.
@@ -63,26 +64,33 @@
             <div>
                 <div class="at1">
                     <img class="tentp" src="img/koningssloep.jpg" alt="de koningssloep">
-                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/koningssloep"> <p class="arrow1">De koningssloep  &#8680;</p>
+                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/koningssloep">
+                        <p class="arrow1">De koningssloep &#8680;</p>
                     </a>
                 </div>
 
                 <div class="at1">
                     <img class="tentp" src="img/de-navigatie-instrumenten.jpg" alt="de koningssloep">
                     <a class="tent"
-                        href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/navigatie-instrumenten"> <p class="arrow">Navigatie-instrumenten &#8680;</p></a>
+                        href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/navigatie-instrumenten">
+                        <p class="arrow">Navigatie-instrumenten &#8680;</p>
+                    </a>
                 </div>
             </div>
 
             <div>
                 <div class="at1">
                     <img class="tentp" src="img/de-jachtmodellen.jpg" alt="De jachtmodellen">
-                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/jachtmodellen"> <p class="arrow2">De jachtmodellen &#8680;</p></a>
+                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/doen/tentoonstellingen/jachtmodellen">
+                        <p class="arrow2">De jachtmodellen &#8680;</p>
+                    </a>
                 </div>
 
                 <div class="at1">
                     <img class="tentp" src="img/voc-schip-amsterdam_0.jpg" alt="voc schip amsterdam">
-                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/doen/voc-schip-amsterdam"> <p class="arrow3">voc schip Amsterdam &#8680;</p></a>
+                    <a class="tent" href="https://www.hetscheepvaartmuseum.nl/doen/voc-schip-amsterdam">
+                        <p class="arrow3">voc schip Amsterdam &#8680;</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -268,18 +276,19 @@
     <section id="vr">
         <h2 class="H2">Interactieve route</h2>
         <div id="container">
-            <img id="myImage" src="css/img/0.jpg" alt="foto 0">
+            <img id="myImage" src="img/R/hetbegin.jpg" height="600px" alt="foto silver bullet">
             <div id="myInter">
-                <div id="myTitle">
-                    ingang silverbullet
-                </div>
-                <h3>Kies welke</h3>
+                <div id="myTitle">hier komt de titel</div>
+                <h3>Kies welke richting je op wilt:</h3>
                 <nav>
-                    <button id="knopNoord" onclick="goDire('noord')">noord</button>
-                    <button id="knopWest" onclick="goDire('west')">west</button><button id="knopOost" onclick="goDire('oost')">oost</button>
-                    <button id="knopZuid" onclick="goDire('zuid')">Zuid</button>
+                    <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                    <button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                    <button id="knopWest" onclick="goDirection('west')">West</button>
+                    <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+                    
                 </nav>
-                <img src="css/img/map_compass.png" id="mapImage" alt="">
+
+                <img src="img/R/InkedSchermopname_63_LI.jpg" alt="Blueprint" id="mapImage">
             </div>
         </div>
     </section>
@@ -324,6 +333,7 @@
 
         </figure>
     </section>
+    </main>
     <a href="#Header" class="top"><span>&uarr;</span></a>
 
 

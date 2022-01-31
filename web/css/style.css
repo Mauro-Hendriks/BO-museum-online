@@ -11,6 +11,7 @@ html{
 body{
     background: #F9C198;
     font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -115,7 +116,6 @@ nav > ul > li > a{
     display: inline-block;
 }
 
-
 .h1{
     background: #DF8544;
     height: 80px;
@@ -123,7 +123,7 @@ nav > ul > li > a{
 
 #fotoslide{
     width: 100vw;
-    height: 82vh;
+    height: 78vh;
     background-size: cover;
     background-position: center;
     animation-name: fotoslide;
@@ -314,13 +314,18 @@ nav > ul > li > a{
 }
 
 #container{
-    background: #deb887;
-    width: 900px;
-    height: 600px;
+    background: #f5934c;
+    width: 1100px;
+    height: 550px;
     margin: 50px auto auto auto;
     display: grid;
     grid-template-columns: auto auto;
     border: inset 2px #a52a2a;
+}
+
+#myImage{
+    width: 700px;
+    height: auto;
 }
 
 #myInter{
@@ -328,8 +333,10 @@ nav > ul > li > a{
 }
 
 #mapImage{
-    margin-top: 20px;
+    margin-top: -290px;
     max-width: 100%;
+    height: auto;
+    width: 300px;
     height: auto;
 }
     
